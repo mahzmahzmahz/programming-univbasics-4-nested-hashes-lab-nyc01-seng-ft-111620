@@ -86,18 +86,6 @@ def adding_matz
       }
 }
 end
-#adding_matz[:programmer_hash][:yukihiro_matsumoto]
-
-#programmer_hash[:yukihiro_matsumoto]
-  #if programmer_hash[:yukihiro_matsumoto]
-   # programmer_hash << [:yukihiro_matsumoto=>{
-  #:known_for=> "Ruby",
- # :languages=> ["LISP", "C"]
- # }
-#]
-#end
-#end
-
 
 def changing_alan
   # change what Alan Kay is :known_for to the value of the alans_new_info variable. 
@@ -118,6 +106,8 @@ def changing_alan
         :languages => ["C"]
       }
     }
+
+programmer_hash[:alan_kay][:known_for] = "GUI"
 
 end
 
